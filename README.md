@@ -4,16 +4,14 @@ Data Management System for Counseling at Schools
 Built as part of Senior Year Project for AISSCE Internals.
 
 MainMenu.py
-Main file: uses the deployed models from 'models'.
-Takes user input for Population, Number of LTC Homes & Province of city.
-Returns an estimate for Number of LTC Beds needed using Linear Regression.
+- Main file: contains 6 menu options to view & alter records.
+- Required functions are imported for use.
 
 AddDel.py
-Contains datasets for each Canadian province in CSV format.
-maxmin.csv contains max & min values of relevant features for every provinces.
+- add(table) adds records to given 'table'.
+- del(table) searches and deletes a given record from 'table'.
 
 SearchModifyMove.py
-Contains a folder per province with 2 Multiple Linear Regression Models.
-m1 returns the Number of Beds based on the current data.
-m2 returns an adjustment to be added to the value above.
-building_model.py contains the code used to build & save the said models.
+- search(table, identity) searches for record with 'identity' in 'table'.
+- modify(table, identity) finds record with 'identity' in 'table' and alters it.
+- done(identity) effectively moves a student record from current matches to archives.
