@@ -1,6 +1,7 @@
 # MentalHealthDB
 
 Data Management System for Counseling at Schools
+
 Built as part of Senior Year Project for AISSCE Internals.
 
 MainMenu.py
