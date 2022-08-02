@@ -4,6 +4,7 @@ Data Management System for Counseling at Schools
 
 Built as part of Senior Year Project for AISSCE Internals.
 
+
 MainMenu.py
 - Main file: contains 6 menu options to view & alter records.
 - Required functions are imported for use.
